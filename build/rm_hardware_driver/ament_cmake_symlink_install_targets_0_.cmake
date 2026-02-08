@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lin/auto-aim/build/rm_hardware_driver/libserial_driver_node.so" "/home/lin/auto-aim/build/rm_hardware_driver/libcamera_driver_node.so" "TARGETS" "serial_driver_node" "camera_driver_node" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

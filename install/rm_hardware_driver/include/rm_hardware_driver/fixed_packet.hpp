@@ -1,0 +1,1 @@
+/home/lin/auto-aim/src/rm_hardware_driver/include/rm_hardware_driver/fixed_packet.hpp

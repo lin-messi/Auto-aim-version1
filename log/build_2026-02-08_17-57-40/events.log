@@ -1,0 +1,484 @@
+[0.000000] (-) TimerEvent: {}
+[0.000564] (rm_interfaces) JobQueued: {'identifier': 'rm_interfaces', 'dependencies': OrderedDict()}
+[0.000613] (rm_robot_description) JobQueued: {'identifier': 'rm_robot_description', 'dependencies': OrderedDict()}
+[0.000654] (rm_auto_aim) JobQueued: {'identifier': 'rm_auto_aim', 'dependencies': OrderedDict([('rm_interfaces', '/home/lin/auto-aim/install/rm_interfaces')])}
+[0.000678] (rm_hardware_driver) JobQueued: {'identifier': 'rm_hardware_driver', 'dependencies': OrderedDict([('rm_interfaces', '/home/lin/auto-aim/install/rm_interfaces')])}
+[0.000700] (rm_bringup) JobQueued: {'identifier': 'rm_bringup', 'dependencies': OrderedDict([('rm_interfaces', '/home/lin/auto-aim/install/rm_interfaces'), ('rm_auto_aim', '/home/lin/auto-aim/install/rm_auto_aim'), ('rm_hardware_driver', '/home/lin/auto-aim/install/rm_hardware_driver')])}
+[0.001547] (rm_interfaces) JobStarted: {'identifier': 'rm_interfaces'}
+[0.005857] (rm_robot_description) JobStarted: {'identifier': 'rm_robot_description'}
+[0.010104] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'cmake'}
+[0.011288] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'build'}
+[0.011327] (rm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lin/auto-aim/build/rm_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/lin/auto-aim/build/rm_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/3406,unix/lin-virtual-machine:/tmp/.ICE-unix/3406'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f80f2458_4915_4f10_99cf_3c742fe2dbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SLCJK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/auto-aim/build/rm_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.014829] (rm_robot_description) JobProgress: {'identifier': 'rm_robot_description', 'progress': 'cmake'}
+[0.015722] (rm_robot_description) JobProgress: {'identifier': 'rm_robot_description', 'progress': 'build'}
+[0.015750] (rm_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lin/auto-aim/build/rm_robot_description', '--', '-j8', '-l8'], 'cwd': '/home/lin/auto-aim/build/rm_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/3406,unix/lin-virtual-machine:/tmp/.ICE-unix/3406'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f80f2458_4915_4f10_99cf_3c742fe2dbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SLCJK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/auto-aim/build/rm_robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.048162] (rm_robot_description) CommandEnded: {'returncode': 0}
+[0.049030] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.049115] (rm_robot_description) JobProgress: {'identifier': 'rm_robot_description', 'progress': 'install'}
+[0.056025] (rm_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lin/auto-aim/build/rm_robot_description'], 'cwd': '/home/lin/auto-aim/build/rm_robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/3406,unix/lin-virtual-machine:/tmp/.ICE-unix/3406'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f80f2458_4915_4f10_99cf_3c742fe2dbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SLCJK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/auto-aim/build/rm_robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.059976] (rm_interfaces) StdoutLine: {'line': b'[ 11%] Built target rm_interfaces__rosidl_generator_c\n'}
+[0.060463] (rm_interfaces) StdoutLine: {'line': b'[ 12%] Built target rm_interfaces__cpp\n'}
+[0.066728] (rm_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_rm_interfaces\n'}
+[0.066923] (rm_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.067013] (rm_robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.067708] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/urdf/rm_gimbal.urdf.xacro\n'}
+[0.067917] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/package_run_dependencies/rm_robot_description\n'}
+[0.068084] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/parent_prefix_path/rm_robot_description\n'}
+[0.068396] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.sh\n'}
+[0.069144] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.dsv\n'}
+[0.069746] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/path.sh\n'}
+[0.069795] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/path.dsv\n'}
+[0.069822] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.bash\n'}
+[0.069845] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.sh\n'}
+[0.069867] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.zsh\n'}
+[0.069889] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.dsv\n'}
+[0.069909] (rm_robot_description) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.dsv\n'}
+[0.071782] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.071911] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.071955] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.076063] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.078970] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/packages/rm_robot_description\n'}
+[0.079134] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig.cmake\n'}
+[0.079268] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig-version.cmake\n'}
+[0.079356] (rm_robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.xml\n'}
+[0.079468] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.079562] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.081113] (rm_robot_description) CommandEnded: {'returncode': 0}
+[0.088371] (rm_interfaces) StdoutLine: {'line': b'[ 24%] Built target rm_interfaces__rosidl_typesupport_c\n'}
+[0.089903] (rm_interfaces) StdoutLine: {'line': b'[ 35%] Built target rm_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.095597] (rm_interfaces) StdoutLine: {'line': b'[ 46%] Built target rm_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.095743] (rm_interfaces) StdoutLine: {'line': b'[ 58%] Built target rm_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.097434] (rm_robot_description) JobEnded: {'identifier': 'rm_robot_description', 'rc': 0}
+[0.098849] (rm_interfaces) StdoutLine: {'line': b'[ 69%] Built target rm_interfaces__rosidl_typesupport_cpp\n'}
+[0.099417] (rm_interfaces) StdoutLine: {'line': b'[ 81%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.099935] (-) TimerEvent: {}
+[0.128141] (rm_interfaces) StdoutLine: {'line': b'[ 81%] Built target rm_interfaces\n'}
+[0.154839] (rm_interfaces) StdoutLine: {'line': b'[ 82%] Built target rm_interfaces__py\n'}
+[0.168204] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_generator_py\x1b[0m\n'}
+[0.191390] (rm_interfaces) StdoutLine: {'line': b'[ 92%] Built target rm_interfaces__rosidl_generator_py\n'}
+[0.200063] (-) TimerEvent: {}
+[0.202276] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.206286] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.207619] (rm_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rm_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.216249] (rm_interfaces) StdoutLine: {'line': b'[ 94%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.217880] (rm_interfaces) StdoutLine: {'line': b'[ 97%] Built target rm_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.223057] (rm_interfaces) StdoutLine: {'line': b'[100%] Built target rm_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.237650] (rm_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.238012] (rm_interfaces) StdoutLine: {'line': b'writing rm_interfaces.egg-info/PKG-INFO\n'}
+[0.238348] (rm_interfaces) StdoutLine: {'line': b'writing dependency_links to rm_interfaces.egg-info/dependency_links.txt\n'}
+[0.238535] (rm_interfaces) StdoutLine: {'line': b'writing top-level names to rm_interfaces.egg-info/top_level.txt\n'}
+[0.239549] (rm_interfaces) StdoutLine: {'line': b"reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'\n"}
+[0.239822] (rm_interfaces) StdoutLine: {'line': b"writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'\n"}
+[0.261461] (rm_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rm_interfaces_egg\n'}
+[0.272710] (rm_interfaces) CommandEnded: {'returncode': 0}
+[0.273440] (rm_interfaces) JobProgress: {'identifier': 'rm_interfaces', 'progress': 'install'}
+[0.273647] (rm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lin/auto-aim/build/rm_interfaces'], 'cwd': '/home/lin/auto-aim/build/rm_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/3406,unix/lin-virtual-machine:/tmp/.ICE-unix/3406'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f80f2458_4915_4f10_99cf_3c742fe2dbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SLCJK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/auto-aim/build/rm_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.282423] (rm_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.282706] (rm_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.282869] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_interfaces\n'}
+[0.283233] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor.h\n'}
+[0.283305] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armors.h\n'}
+[0.283563] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__functions.h\n'}
+[0.283824] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__struct.h\n'}
+[0.283932] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.h\n'}
+[0.284104] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__functions.h\n'}
+[0.284165] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__struct.h\n'}
+[0.284277] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.h\n'}
+[0.284374] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.h\n'}
+[0.284435] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.h\n'}
+[0.284530] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.h\n'}
+[0.284730] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__functions.h\n'}
+[0.284805] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__struct.h\n'}
+[0.284882] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__type_support.h\n'}
+[0.284928] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__functions.h\n'}
+[0.284972] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__struct.h\n'}
+[0.285024] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__type_support.h\n'}
+[0.285073] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__functions.h\n'}
+[0.285178] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__struct.h\n'}
+[0.285221] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.h\n'}
+[0.285309] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.h\n'}
+[0.285400] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/measurement.h\n'}
+[0.285452] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.285491] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/serial_receive_data.h\n'}
+[0.285533] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target.h\n'}
+[0.285576] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__functions.h\n'}
+[0.285614] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__struct.h\n'}
+[0.285730] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__type_support.h\n'}
+[0.285776] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/set_mode.h\n'}
+[0.285886] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/library_path.sh\n'}
+[0.285936] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/library_path.dsv\n'}
+[0.285972] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h\n'}
+[0.286006] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.286040] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.286074] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_fastrtps_c.h\n'}
+[0.286106] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.286136] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[0.286169] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.286202] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[0.286235] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h\n'}
+[0.286267] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h\n'}
+[0.286305] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.286337] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_introspection_c.h\n'}
+[0.286434] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_introspection_c.h\n'}
+[0.286485] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[0.286522] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.286558] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h\n'}
+[0.286594] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor.hpp\n'}
+[0.286640] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armors.hpp\n'}
+[0.286678] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__builder.hpp\n'}
+[0.286786] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__struct.hpp\n'}
+[0.286824] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__traits.hpp\n'}
+[0.286890] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.hpp\n'}
+[0.286993] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__builder.hpp\n'}
+[0.287102] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__struct.hpp\n'}
+[0.287153] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__traits.hpp\n'}
+[0.287235] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.hpp\n'}
+[0.287281] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__builder.hpp\n'}
+[0.287320] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp\n'}
+[0.287357] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp\n'}
+[0.287458] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.hpp\n'}
+[0.287543] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__builder.hpp\n'}
+[0.287591] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__struct.hpp\n'}
+[0.287635] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__traits.hpp\n'}
+[0.287719] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__type_support.hpp\n'}
+[0.287755] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__builder.hpp\n'}
+[0.287788] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__struct.hpp\n'}
+[0.287820] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__traits.hpp\n'}
+[0.287883] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__type_support.hpp\n'}
+[0.287924] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__builder.hpp\n'}
+[0.288005] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__struct.hpp\n'}
+[0.288108] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__traits.hpp\n'}
+[0.288147] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.hpp\n'}
+[0.288217] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.hpp\n'}
+[0.288257] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/measurement.hpp\n'}
+[0.288325] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.288364] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/serial_receive_data.hpp\n'}
+[0.288429] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target.hpp\n'}
+[0.288469] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__builder.hpp\n'}
+[0.288498] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__struct.hpp\n'}
+[0.288524] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__traits.hpp\n'}
+[0.288553] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__type_support.hpp\n'}
+[0.288617] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/set_mode.hpp\n'}
+[0.288692] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288724] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288753] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288823] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288911] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288951] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288982] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.289047] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.289080] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.289108] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.289137] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.289165] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.289196] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.289392] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.289552] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.289590] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.sh\n'}
+[0.289632] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.dsv\n'}
+[0.289712] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.289756] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.289789] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.289819] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.289907] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py\n'}
+[0.289938] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.290046] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.290118] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.290159] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/librm_interfaces__rosidl_generator_py.so\n'}
+[0.290192] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py\n'}
+[0.290223] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor.py\n'}
+[0.290315] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_s.c\n'}
+[0.290389] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors.py\n'}
+[0.290462] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors_s.c\n'}
+[0.290509] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py\n'}
+[0.290546] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd_s.c\n'}
+[0.290575] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_measurement.py\n'}
+[0.290667] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_measurement_s.c\n'}
+[0.290703] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_serial_receive_data.py\n'}
+[0.290735] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_serial_receive_data_s.c\n'}
+[0.290765] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target.py\n'}
+[0.290857] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target_s.c\n'}
+[0.290896] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.290925] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.290956] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.290986] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/__init__.py\n'}
+[0.291017] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/_set_mode.py\n'}
+[0.291049] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/_set_mode_s.c\n'}
+[0.291139] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.291173] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.291202] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.291269] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Armor.idl\n'}
+[0.291341] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Armors.idl\n'}
+[0.291366] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Target.idl\n'}
+[0.291422] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Measurement.idl\n'}
+[0.291451] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.idl\n'}
+[0.291475] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/SerialReceiveData.idl\n'}
+[0.291548] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/srv/SetMode.idl\n'}
+[0.291572] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Armor.msg\n'}
+[0.291633] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Armors.msg\n'}
+[0.291689] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Target.msg\n'}
+[0.291795] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Measurement.msg\n'}
+[0.291837] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.msg\n'}
+[0.291867] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/SerialReceiveData.msg\n'}
+[0.291945] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/srv/SetMode.srv\n'}
+[0.291978] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/srv/SetMode_Request.msg\n'}
+[0.292029] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/srv/SetMode_Response.msg\n'}
+[0.292091] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_interfaces\n'}
+[0.292148] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_interfaces\n'}
+[0.292207] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.sh\n'}
+[0.292267] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.292326] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/path.sh\n'}
+[0.292478] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/path.dsv\n'}
+[0.292518] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/local_setup.bash\n'}
+[0.292544] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/local_setup.sh\n'}
+[0.292625] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/local_setup.zsh\n'}
+[0.292654] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/local_setup.dsv\n'}
+[0.292675] (rm_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.dsv\n'}
+[0.300662] (-) TimerEvent: {}
+[0.304806] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/ament_index/resource_index/packages/rm_interfaces\n'}
+[0.304924] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.304959] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.304987] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.305016] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.305085] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.305112] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.305136] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.305159] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig.cmake\n'}
+[0.305243] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig-version.cmake\n'}
+[0.305305] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.xml\n'}
+[0.305608] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so\n'}
+[0.305974] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.306298] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.306588] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so\n'}
+[0.306935] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.307305] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.307674] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.332775] (rm_interfaces) StdoutLine: {'line': b"Listing '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces'...\n"}
+[0.332924] (rm_interfaces) StdoutLine: {'line': b"Listing '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg'...\n"}
+[0.332964] (rm_interfaces) StdoutLine: {'line': b"Listing '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv'...\n"}
+[0.336096] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so\n'}
+[0.336406] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.336458] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.336490] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.336551] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.336578] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.336605] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.336700] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.336735] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.336761] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.336786] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.336809] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.336852] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.336879] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.336948] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.336980] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.337024] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.337071] (rm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.339057] (rm_interfaces) CommandEnded: {'returncode': 0}
+[0.360742] (rm_interfaces) JobEnded: {'identifier': 'rm_interfaces', 'rc': 0}
+[0.362461] (rm_auto_aim) JobStarted: {'identifier': 'rm_auto_aim'}
+[0.364705] (rm_hardware_driver) JobStarted: {'identifier': 'rm_hardware_driver'}
+[0.372291] (rm_auto_aim) JobProgress: {'identifier': 'rm_auto_aim', 'progress': 'cmake'}
+[0.373135] (rm_auto_aim) JobProgress: {'identifier': 'rm_auto_aim', 'progress': 'build'}
+[0.373798] (rm_auto_aim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lin/auto-aim/build/rm_auto_aim', '--', '-j8', '-l8'], 'cwd': '/home/lin/auto-aim/build/rm_auto_aim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/3406,unix/lin-virtual-machine:/tmp/.ICE-unix/3406'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f80f2458_4915_4f10_99cf_3c742fe2dbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SLCJK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/auto-aim/build/rm_auto_aim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.375682] (rm_hardware_driver) JobProgress: {'identifier': 'rm_hardware_driver', 'progress': 'cmake'}
+[0.376396] (rm_hardware_driver) JobProgress: {'identifier': 'rm_hardware_driver', 'progress': 'build'}
+[0.377147] (rm_hardware_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lin/auto-aim/build/rm_hardware_driver', '--', '-j8', '-l8'], 'cwd': '/home/lin/auto-aim/build/rm_hardware_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/3406,unix/lin-virtual-machine:/tmp/.ICE-unix/3406'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f80f2458_4915_4f10_99cf_3c742fe2dbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SLCJK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/auto-aim/build/rm_hardware_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.400831] (-) TimerEvent: {}
+[0.414070] (rm_hardware_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_driver_node\x1b[0m\n'}
+[0.414838] (rm_auto_aim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armor_solver\x1b[0m\n'}
+[0.415803] (rm_hardware_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target camera_driver_node\x1b[0m\n'}
+[0.417850] (rm_auto_aim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target armor_detector\x1b[0m\n'}
+[0.430639] (rm_hardware_driver) StdoutLine: {'line': b'[ 50%] Built target camera_driver_node\n'}
+[0.430854] (rm_auto_aim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector/detector.cpp.o\x1b[0m\n'}
+[0.430900] (rm_auto_aim) StdoutLine: {'line': b'[ 40%] Built target armor_solver\n'}
+[0.431090] (rm_hardware_driver) StdoutLine: {'line': b'[100%] Built target serial_driver_node\n'}
+[0.432068] (rm_auto_aim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector/pnp_solver.cpp.o\x1b[0m\n'}
+[0.440680] (rm_auto_aim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lin/auto-aim/src/rm_auto_aim/src/detector/pnp_solver.cpp:1\x1b[m\x1b[K:\n'}
+[0.440844] (rm_auto_aim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lin/auto-aim/src/rm_auto_aim/include/rm_auto_aim/detector/pnp_solver.hpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KEigen/Dense: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[0.440882] (rm_auto_aim) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K<Eigen/Dense>\x1b[m\x1b[K\n'}
+[0.440906] (rm_auto_aim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.440927] (rm_auto_aim) StderrLine: {'line': b'compilation terminated.\n'}
+[0.441721] (rm_auto_aim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/armor_detector.dir/build.make:90\xef\xbc\x9aCMakeFiles/armor_detector.dir/src/detector/pnp_solver.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.441894] (rm_auto_aim) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.443493] (rm_hardware_driver) CommandEnded: {'returncode': 0}
+[0.444059] (rm_hardware_driver) JobProgress: {'identifier': 'rm_hardware_driver', 'progress': 'install'}
+[0.444913] (rm_hardware_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lin/auto-aim/build/rm_hardware_driver'], 'cwd': '/home/lin/auto-aim/build/rm_hardware_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lin'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32'), ('HOME', '/home/lin'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lin-virtual-machine:@/tmp/.ICE-unix/3406,unix/lin-virtual-machine:/tmp/.ICE-unix/3406'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f80f2458_4915_4f10_99cf_3c742fe2dbc4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SLCJK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.142'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lin/auto-aim/build/rm_hardware_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=fb1b7cd9b2690003e40576d769885aff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('MVCAM_SDK_VERSION', ''), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.452824] (rm_auto_aim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/armor_solver_node.dir/src/solver/armor_solver_node.cpp.o\x1b[0m\n'}
+[0.455715] (rm_hardware_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.456692] (rm_hardware_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.457336] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/camera_driver_node.hpp\n'}
+[0.466392] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/fixed_packet.hpp\n'}
+[0.478099] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/serial_driver_node.hpp\n'}
+[0.491928] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/lib/libserial_driver_node.so\n'}
+[0.500969] (-) TimerEvent: {}
+[0.504319] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/lib/libcamera_driver_node.so\n'}
+[0.513671] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/package_run_dependencies/rm_hardware_driver\n'}
+[0.522865] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/parent_prefix_path/rm_hardware_driver\n'}
+[0.532960] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/ament_prefix_path.sh\n'}
+[0.540017] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/ament_prefix_path.dsv\n'}
+[0.547188] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/path.sh\n'}
+[0.557691] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/path.dsv\n'}
+[0.567136] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.bash\n'}
+[0.574253] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.sh\n'}
+[0.584112] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.zsh\n'}
+[0.590839] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.dsv\n'}
+[0.598482] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/package.dsv\n'}
+[0.601070] (-) TimerEvent: {}
+[0.605076] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/packages/rm_hardware_driver\n'}
+[0.612283] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/rclcpp_components/rm_hardware_driver\n'}
+[0.618821] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/cmake/rm_hardware_driverConfig.cmake\n'}
+[0.626198] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/cmake/rm_hardware_driverConfig-version.cmake\n'}
+[0.633870] (rm_hardware_driver) StdoutLine: {'line': b'-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/package.xml\n'}
+[0.643220] (rm_hardware_driver) CommandEnded: {'returncode': 0}
+[0.655810] (rm_hardware_driver) JobEnded: {'identifier': 'rm_hardware_driver', 'rc': 0}
+[0.701227] (-) TimerEvent: {}
+[0.801915] (-) TimerEvent: {}
+[0.902215] (-) TimerEvent: {}
+[0.976054] (rm_auto_aim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lin/auto-aim/src/rm_auto_aim/src/detector/detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krm_auto_aim::Color rm_auto_aim::ArmorDetector::classifyLightColor(const cv::Mat&, const cv::RotatedRect&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.976266] (rm_auto_aim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lin/auto-aim/src/rm_auto_aim/src/detector/detector.cpp:119:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KfillConvexPoly(cv::MatExpr&, std::vector<cv::Point_<int> >&, cv::Scalar)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.976309] (rm_auto_aim) StderrLine: {'line': b'  119 |     \x1b[01;31m\x1b[Kcv::fillConvexPoly(mask, roi_pts, cv::Scalar(255))\x1b[m\x1b[K;\n'}
+[0.976337] (rm_auto_aim) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.976360] (rm_auto_aim) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lin/auto-aim/src/rm_auto_aim/include/rm_auto_aim/detector/detector.hpp:4\x1b[m\x1b[K,\n'}
+[0.976384] (rm_auto_aim) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lin/auto-aim/src/rm_auto_aim/src/detector/detector.cpp:1\x1b[m\x1b[K:\n'}
+[0.976405] (rm_auto_aim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:4545:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::fillConvexPoly(cv::InputOutputArray, cv::InputArray, const Scalar&, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.976426] (rm_auto_aim) StderrLine: {'line': b' 4545 | CV_EXPORTS_W void \x1b[01;36m\x1b[KfillConvexPoly\x1b[m\x1b[K(InputOutputArray img, InputArray points,\n'}
+[0.976446] (rm_auto_aim) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.976465] (rm_auto_aim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:4545:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kcv::MatExpr\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kcv::InputOutputArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst cv::_InputOutputArray&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[0.976496] (rm_auto_aim) StderrLine: {'line': b' 4545 | CV_EXPORTS_W void fillConvexPoly(\x1b[01;36m\x1b[KInputOutputArray img\x1b[m\x1b[K, InputArray points,\n'}
+[0.976515] (rm_auto_aim) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[0.976533] (rm_auto_aim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:4550:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid cv::fillConvexPoly(cv::InputOutputArray, const Point*, int, const Scalar&, int, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.976551] (rm_auto_aim) StderrLine: {'line': b' 4550 | CV_EXPORTS void \x1b[01;36m\x1b[KfillConvexPoly\x1b[m\x1b[K(InputOutputArray img, const Point* pts, int npts,\n'}
+[0.976570] (rm_auto_aim) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.976587] (rm_auto_aim) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/imgproc.hpp:4550:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 6 arguments, 3 provided\n'}
+[1.002336] (-) TimerEvent: {}
+[1.102777] (-) TimerEvent: {}
+[1.203132] (-) TimerEvent: {}
+[1.246674] (rm_auto_aim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/armor_detector.dir/build.make:76\xef\xbc\x9aCMakeFiles/armor_detector.dir/src/detector/detector.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.246826] (rm_auto_aim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143\xef\xbc\x9aCMakeFiles/armor_detector.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.246862] (rm_auto_aim) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[1.303252] (-) TimerEvent: {}
+[1.403559] (-) TimerEvent: {}
+[1.503856] (-) TimerEvent: {}
+[1.604205] (-) TimerEvent: {}
+[1.704570] (-) TimerEvent: {}
+[1.804980] (-) TimerEvent: {}
+[1.905379] (-) TimerEvent: {}
+[2.005718] (-) TimerEvent: {}
+[2.106093] (-) TimerEvent: {}
+[2.206593] (-) TimerEvent: {}
+[2.307019] (-) TimerEvent: {}
+[2.407385] (-) TimerEvent: {}
+[2.507753] (-) TimerEvent: {}
+[2.608184] (-) TimerEvent: {}
+[2.708606] (-) TimerEvent: {}
+[2.809025] (-) TimerEvent: {}
+[2.909409] (-) TimerEvent: {}
+[3.009772] (-) TimerEvent: {}
+[3.110086] (-) TimerEvent: {}
+[3.210463] (-) TimerEvent: {}
+[3.310843] (-) TimerEvent: {}
+[3.412168] (-) TimerEvent: {}
+[3.512546] (-) TimerEvent: {}
+[3.612957] (-) TimerEvent: {}
+[3.713331] (-) TimerEvent: {}
+[3.813738] (-) TimerEvent: {}
+[3.914186] (-) TimerEvent: {}
+[4.014592] (-) TimerEvent: {}
+[4.114925] (-) TimerEvent: {}
+[4.215268] (-) TimerEvent: {}
+[4.315637] (-) TimerEvent: {}
+[4.416081] (-) TimerEvent: {}
+[4.516557] (-) TimerEvent: {}
+[4.617510] (-) TimerEvent: {}
+[4.718009] (-) TimerEvent: {}
+[4.818475] (-) TimerEvent: {}
+[4.918935] (-) TimerEvent: {}
+[5.019386] (-) TimerEvent: {}
+[5.119912] (-) TimerEvent: {}
+[5.220696] (-) TimerEvent: {}
+[5.321130] (-) TimerEvent: {}
+[5.421478] (-) TimerEvent: {}
+[5.521833] (-) TimerEvent: {}
+[5.622155] (-) TimerEvent: {}
+[5.722501] (-) TimerEvent: {}
+[5.822955] (-) TimerEvent: {}
+[5.923305] (-) TimerEvent: {}
+[6.023732] (-) TimerEvent: {}
+[6.124223] (-) TimerEvent: {}
+[6.224589] (-) TimerEvent: {}
+[6.325035] (-) TimerEvent: {}
+[6.425477] (-) TimerEvent: {}
+[6.526021] (-) TimerEvent: {}
+[6.626407] (-) TimerEvent: {}
+[6.726892] (-) TimerEvent: {}
+[6.827372] (-) TimerEvent: {}
+[6.927757] (-) TimerEvent: {}
+[7.028092] (-) TimerEvent: {}
+[7.128474] (-) TimerEvent: {}
+[7.228901] (-) TimerEvent: {}
+[7.329368] (-) TimerEvent: {}
+[7.429771] (-) TimerEvent: {}
+[7.530180] (-) TimerEvent: {}
+[7.630609] (-) TimerEvent: {}
+[7.731090] (-) TimerEvent: {}
+[7.831464] (-) TimerEvent: {}
+[7.931875] (-) TimerEvent: {}
+[8.032334] (-) TimerEvent: {}
+[8.132772] (-) TimerEvent: {}
+[8.233170] (-) TimerEvent: {}
+[8.333586] (-) TimerEvent: {}
+[8.434177] (-) TimerEvent: {}
+[8.534543] (-) TimerEvent: {}
+[8.634887] (-) TimerEvent: {}
+[8.735831] (-) TimerEvent: {}
+[8.836586] (-) TimerEvent: {}
+[8.937199] (-) TimerEvent: {}
+[9.037587] (-) TimerEvent: {}
+[9.137956] (-) TimerEvent: {}
+[9.238359] (-) TimerEvent: {}
+[9.338861] (-) TimerEvent: {}
+[9.439247] (-) TimerEvent: {}
+[9.539743] (-) TimerEvent: {}
+[9.640129] (-) TimerEvent: {}
+[9.740790] (-) TimerEvent: {}
+[9.841223] (-) TimerEvent: {}
+[9.941622] (-) TimerEvent: {}
+[10.042361] (-) TimerEvent: {}
+[10.142840] (-) TimerEvent: {}
+[10.243229] (-) TimerEvent: {}
+[10.343653] (-) TimerEvent: {}
+[10.444040] (-) TimerEvent: {}
+[10.544501] (-) TimerEvent: {}
+[10.644935] (-) TimerEvent: {}
+[10.745290] (-) TimerEvent: {}
+[10.845672] (-) TimerEvent: {}
+[10.946075] (-) TimerEvent: {}
+[11.046479] (-) TimerEvent: {}
+[11.146885] (-) TimerEvent: {}
+[11.247292] (-) TimerEvent: {}
+[11.347679] (-) TimerEvent: {}
+[11.448097] (-) TimerEvent: {}
+[11.548521] (-) TimerEvent: {}
+[11.649153] (-) TimerEvent: {}
+[11.749563] (-) TimerEvent: {}
+[11.850012] (-) TimerEvent: {}
+[11.950408] (-) TimerEvent: {}
+[12.050738] (-) TimerEvent: {}
+[12.151139] (-) TimerEvent: {}
+[12.251506] (-) TimerEvent: {}
+[12.351884] (-) TimerEvent: {}
+[12.452298] (-) TimerEvent: {}
+[12.552754] (-) TimerEvent: {}
+[12.592531] (rm_auto_aim) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libarmor_solver_node.so\x1b[0m\n'}
+[12.652900] (-) TimerEvent: {}
+[12.753227] (-) TimerEvent: {}
+[12.853989] (-) TimerEvent: {}
+[12.954515] (-) TimerEvent: {}
+[13.042734] (rm_auto_aim) StdoutLine: {'line': b'[ 70%] Built target armor_solver_node\n'}
+[13.043675] (rm_auto_aim) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.046858] (rm_auto_aim) CommandEnded: {'returncode': 2}
+[13.052790] (rm_auto_aim) JobEnded: {'identifier': 'rm_auto_aim', 'rc': 2}
+[13.054584] (-) TimerEvent: {}
+[13.063455] (rm_bringup) JobSkipped: {'identifier': 'rm_bringup'}
+[13.063533] (-) EventReactorShutdown: {}

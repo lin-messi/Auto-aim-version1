@@ -1,0 +1,1 @@
+/home/lin/auto-aim/build/rm_interfaces/rosidl_generator_c/rm_interfaces/msg/detail/serial_receive_data__functions.h

@@ -1,0 +1,1 @@
+/home/lin/auto-aim/build/rm_interfaces/ament_cmake_core/rm_interfacesConfig.cmake

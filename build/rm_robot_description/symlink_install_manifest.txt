@@ -1,0 +1,16 @@
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/urdf/rm_gimbal.urdf.xacro
+/home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/package_run_dependencies/rm_robot_description
+/home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/parent_prefix_path/rm_robot_description
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.sh
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.dsv
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/path.sh
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/path.dsv
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.bash
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.sh
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.zsh
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.dsv
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.dsv
+/home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/packages/rm_robot_description
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig.cmake
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig-version.cmake
+/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.xml

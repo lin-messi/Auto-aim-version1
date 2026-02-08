@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_robot_description
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.343s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.381s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Configuring done
+[0.439s] -- Generating done
+[0.440s] -- Build files have been written to: /home/lin/auto-aim/build/rm_robot_description
+[0.444s] Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_robot_description
+[0.446s] Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_robot_description -- -j8 -l8
+[0.496s] Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_robot_description -- -j8 -l8
+[0.507s] Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_robot_description
+[0.514s] -- Install configuration: ""
+[0.515s] -- Execute custom install script
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/urdf/rm_gimbal.urdf.xacro
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/package_run_dependencies/rm_robot_description
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/parent_prefix_path/rm_robot_description
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.sh
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/ament_prefix_path.dsv
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/path.sh
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/environment/path.dsv
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.bash
+[0.515s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.sh
+[0.516s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.zsh
+[0.516s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/local_setup.dsv
+[0.516s] -- Symlinking: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.dsv
+[0.527s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/ament_index/resource_index/packages/rm_robot_description
+[0.527s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig.cmake
+[0.527s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/cmake/rm_robot_descriptionConfig-version.cmake
+[0.528s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.xml
+[0.530s] Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_robot_description

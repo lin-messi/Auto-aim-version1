@@ -1,0 +1,1 @@
+/home/lin/auto-aim/build/rm_interfaces/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp

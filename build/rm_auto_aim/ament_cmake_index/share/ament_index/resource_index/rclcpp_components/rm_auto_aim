@@ -1,0 +1,2 @@
+rm_auto_aim::ArmorDetectorNode;lib/libarmor_detector_node.so
+rm_auto_aim::ArmorSolverNode;lib/libarmor_solver_node.so

@@ -1,0 +1,302 @@
+[0.418s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.418s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7dbb10e17730>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dbb10e172e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dbb10e172e0>>)
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.775s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.776s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.776s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lin/auto-aim'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_auto_aim) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_auto_aim' with type 'ros.ament_cmake' and name 'rm_auto_aim'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_bringup) by extension 'ros'
+[0.799s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_bringup' with type 'ros.ament_cmake' and name 'rm_bringup'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_hardware_driver) by extension 'ros'
+[0.800s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_hardware_driver' with type 'ros.ament_cmake' and name 'rm_hardware_driver'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_interfaces) by extension 'ros'
+[0.801s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_interfaces' with type 'ros.ament_cmake' and name 'rm_interfaces'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'ignore_ament_install'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_robot_description) by extension 'ros'
+[0.801s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_robot_description' with type 'ros.ament_cmake' and name 'rm_robot_description'
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.802s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.857s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.858s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.885s] Level 5:colcon.colcon_core.verb:set package 'rm_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.885s] DEBUG:colcon.colcon_core.verb:Building package 'rm_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/auto-aim/build/rm_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/auto-aim/install/rm_interfaces', 'merge_install': False, 'path': '/home/lin/auto-aim/src/rm_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.886s] DEBUG:colcon.colcon_core.verb:Building package 'rm_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/auto-aim/build/rm_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/auto-aim/install/rm_robot_description', 'merge_install': False, 'path': '/home/lin/auto-aim/src/rm_robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_target' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_clean_first' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'cmake_force_configure' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'ament_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_auto_aim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.886s] DEBUG:colcon.colcon_core.verb:Building package 'rm_auto_aim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/auto-aim/build/rm_auto_aim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/auto-aim/install/rm_auto_aim', 'merge_install': False, 'path': '/home/lin/auto-aim/src/rm_auto_aim', 'symlink_install': True, 'test_result_base': None}
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'cmake_target' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_hardware_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.886s] DEBUG:colcon.colcon_core.verb:Building package 'rm_hardware_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/auto-aim/build/rm_hardware_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/auto-aim/install/rm_hardware_driver', 'merge_install': False, 'path': '/home/lin/auto-aim/src/rm_hardware_driver', 'symlink_install': True, 'test_result_base': None}
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'cmake_target' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.886s] Level 5:colcon.colcon_core.verb:set package 'rm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.886s] DEBUG:colcon.colcon_core.verb:Building package 'rm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lin/auto-aim/build/rm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lin/auto-aim/install/rm_bringup', 'merge_install': False, 'path': '/home/lin/auto-aim/src/rm_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.886s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.887s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/auto-aim/src/rm_interfaces' with build type 'ament_cmake'
+[0.887s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/auto-aim/src/rm_interfaces'
+[0.895s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.897s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/auto-aim/src/rm_robot_description' with build type 'ament_cmake'
+[0.897s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/auto-aim/src/rm_robot_description'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_interfaces
+[0.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_robot_description
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_robot_description
+[1.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_robot_description -- -j8 -l8
+[1.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_robot_description -- -j8 -l8
+[1.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_robot_description
+[1.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_robot_description)
+[1.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_robot_description
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description' for CMake module files
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description' for CMake config files
+[1.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_robot_description', 'cmake_prefix_path')
+[1.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.ps1'
+[1.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.sh'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description/bin'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description/lib/pkgconfig/rm_robot_description.pc'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description/lib/python3.10/site-packages'
+[1.973s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description/bin'
+[1.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.ps1'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.dsv'
+[1.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.sh'
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.bash'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.zsh'
+[1.977s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/auto-aim/install/rm_robot_description/share/colcon-core/packages/rm_robot_description)
+[1.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_robot_description)
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description' for CMake module files
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description' for CMake config files
+[1.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_robot_description', 'cmake_prefix_path')
+[1.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.ps1'
+[1.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.dsv'
+[1.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/hook/cmake_prefix_path.sh'
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description/bin'
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description/lib/pkgconfig/rm_robot_description.pc'
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description/lib/python3.10/site-packages'
+[1.979s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_robot_description/bin'
+[1.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.dsv'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.sh'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.bash'
+[1.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_robot_description/share/rm_robot_description/package.zsh'
+[1.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/auto-aim/install/rm_robot_description/share/colcon-core/packages/rm_robot_description)
+[3.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_interfaces
+[3.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_interfaces -- -j8 -l8
+[6.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_interfaces -- -j8 -l8
+[6.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_interfaces
+[8.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_interfaces)
+[8.822s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces' for CMake module files
+[8.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_interfaces
+[8.824s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces' for CMake config files
+[8.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_interfaces', 'cmake_prefix_path')
+[8.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/cmake_prefix_path.ps1'
+[8.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/cmake_prefix_path.dsv'
+[8.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/cmake_prefix_path.sh'
+[8.827s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/lib'
+[8.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_interfaces', 'ld_library_path_lib')
+[8.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/ld_library_path_lib.ps1'
+[8.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/ld_library_path_lib.dsv'
+[8.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/ld_library_path_lib.sh'
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/bin'
+[8.828s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/lib/pkgconfig/rm_interfaces.pc'
+[8.829s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/lib/python3.10/site-packages'
+[8.829s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/bin'
+[8.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.ps1'
+[8.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.dsv'
+[8.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.sh'
+[8.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.bash'
+[8.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.zsh'
+[8.830s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/auto-aim/install/rm_interfaces/share/colcon-core/packages/rm_interfaces)
+[8.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_interfaces)
+[8.831s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces' for CMake module files
+[8.831s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces' for CMake config files
+[8.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_interfaces', 'cmake_prefix_path')
+[8.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/cmake_prefix_path.ps1'
+[8.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/cmake_prefix_path.dsv'
+[8.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/cmake_prefix_path.sh'
+[8.833s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/lib'
+[8.833s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_interfaces', 'ld_library_path_lib')
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/ld_library_path_lib.ps1'
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/ld_library_path_lib.dsv'
+[8.834s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/hook/ld_library_path_lib.sh'
+[8.834s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/bin'
+[8.834s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/lib/pkgconfig/rm_interfaces.pc'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/lib/python3.10/site-packages'
+[8.835s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_interfaces/bin'
+[8.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.ps1'
+[8.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.dsv'
+[8.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.sh'
+[8.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.bash'
+[8.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.zsh'
+[8.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/auto-aim/install/rm_interfaces/share/colcon-core/packages/rm_interfaces)
+[8.837s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/auto-aim/src/rm_auto_aim' with build type 'ament_cmake'
+[8.837s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/auto-aim/src/rm_auto_aim'
+[8.837s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.837s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.840s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lin/auto-aim/src/rm_hardware_driver' with build type 'ament_cmake'
+[8.840s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lin/auto-aim/src/rm_hardware_driver'
+[8.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_auto_aim': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lin/auto-aim/src/rm_auto_aim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_auto_aim
+[8.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_hardware_driver': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lin/auto-aim/src/rm_hardware_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_hardware_driver
+[9.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_hardware_driver' returned '0': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lin/auto-aim/src/rm_hardware_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_hardware_driver
+[9.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_hardware_driver': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lin/auto-aim/build/rm_hardware_driver -- -j8 -l8
+[10.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_auto_aim' returned '0': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lin/auto-aim/src/rm_auto_aim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_auto_aim
+[10.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lin/auto-aim/build/rm_auto_aim': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lin/auto-aim/build/rm_auto_aim -- -j8 -l8
+[19.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lin/auto-aim/build/rm_auto_aim' returned '2': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lin/auto-aim/build/rm_auto_aim -- -j8 -l8
+[19.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_auto_aim)
+[19.487s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_auto_aim' for CMake module files
+[19.487s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_auto_aim' for CMake config files
+[19.487s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_auto_aim/bin'
+[19.487s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_auto_aim/lib/pkgconfig/rm_auto_aim.pc'
+[19.488s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_auto_aim/lib/python3.10/site-packages'
+[19.488s] Level 1:colcon.colcon_core.environment:checking '/home/lin/auto-aim/install/rm_auto_aim/bin'
+[19.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_auto_aim/share/rm_auto_aim/package.ps1'
+[19.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lin/auto-aim/install/rm_auto_aim/share/rm_auto_aim/package.dsv'
+[19.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_auto_aim/share/rm_auto_aim/package.sh'
+[19.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_auto_aim/share/rm_auto_aim/package.bash'
+[19.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/lin/auto-aim/install/rm_auto_aim/share/rm_auto_aim/package.zsh'
+[19.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lin/auto-aim/install/rm_auto_aim/share/colcon-core/packages/rm_auto_aim)
+[21.785s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.786s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[21.786s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.802s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.802s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.820s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin/auto-aim/install/local_setup.ps1'
+[21.822s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lin/auto-aim/install/_local_setup_util_ps1.py'
+[21.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin/auto-aim/install/setup.ps1'
+[21.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin/auto-aim/install/local_setup.sh'
+[21.829s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lin/auto-aim/install/_local_setup_util_sh.py'
+[21.829s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin/auto-aim/install/setup.sh'
+[21.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin/auto-aim/install/local_setup.bash'
+[21.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin/auto-aim/install/setup.bash'
+[21.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lin/auto-aim/install/local_setup.zsh'
+[21.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lin/auto-aim/install/setup.zsh'

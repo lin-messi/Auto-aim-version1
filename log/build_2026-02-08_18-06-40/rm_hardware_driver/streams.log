@@ -1,0 +1,31 @@
+[0.016s] Invoking command in '/home/lin/auto-aim/build/rm_hardware_driver': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lin/auto-aim/build/rm_hardware_driver -- -j8 -l8
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target camera_driver_node[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target serial_driver_node[0m
+[0.089s] [ 50%] Built target camera_driver_node
+[0.090s] [100%] Built target serial_driver_node
+[0.101s] Invoked command in '/home/lin/auto-aim/build/rm_hardware_driver' returned '0': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lin/auto-aim/build/rm_hardware_driver -- -j8 -l8
+[0.103s] Invoking command in '/home/lin/auto-aim/build/rm_hardware_driver': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lin/auto-aim/build/rm_hardware_driver
+[0.109s] -- Install configuration: ""
+[0.109s] -- Execute custom install script
+[0.109s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/camera_driver_node.hpp
+[0.109s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/fixed_packet.hpp
+[0.109s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/serial_driver_node.hpp
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/lib/libserial_driver_node.so
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/lib/libcamera_driver_node.so
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/package_run_dependencies/rm_hardware_driver
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/parent_prefix_path/rm_hardware_driver
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/ament_prefix_path.dsv
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/path.sh
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/path.dsv
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.bash
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.sh
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.zsh
+[0.110s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.dsv
+[0.110s] -- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/package.dsv
+[0.122s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/packages/rm_hardware_driver
+[0.123s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/rclcpp_components/rm_hardware_driver
+[0.123s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/cmake/rm_hardware_driverConfig.cmake
+[0.123s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/cmake/rm_hardware_driverConfig-version.cmake
+[0.123s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/package.xml
+[0.126s] Invoked command in '/home/lin/auto-aim/build/rm_hardware_driver' returned '0': AMENT_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lin/auto-aim/install/rm_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lin/auto-aim/install/rm_interfaces/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lin/auto-aim/build/rm_hardware_driver

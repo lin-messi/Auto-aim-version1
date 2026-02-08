@@ -1,0 +1,1 @@
+/home/lin/auto-aim/build/rm_interfaces/rosidl_generator_c/rm_interfaces/srv/detail/set_mode__functions.h

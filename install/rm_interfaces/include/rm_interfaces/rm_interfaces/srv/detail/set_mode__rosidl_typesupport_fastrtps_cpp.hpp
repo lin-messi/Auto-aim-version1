@@ -1,0 +1,1 @@
+/home/lin/auto-aim/build/rm_interfaces/rosidl_typesupport_fastrtps_cpp/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp

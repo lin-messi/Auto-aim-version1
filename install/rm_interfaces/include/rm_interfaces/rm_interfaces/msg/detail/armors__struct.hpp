@@ -1,0 +1,1 @@
+/home/lin/auto-aim/build/rm_interfaces/rosidl_generator_cpp/rm_interfaces/msg/detail/armors__struct.hpp

@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_driver_node[0m
+[35m[1mConsolidate compiler generated dependencies of target camera_driver_node[0m
+[ 50%] Built target camera_driver_node
+[100%] Built target serial_driver_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/camera_driver_node.hpp
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/fixed_packet.hpp
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/include/rm_hardware_driver/serial_driver_node.hpp
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/lib/libserial_driver_node.so
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/lib/libcamera_driver_node.so
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/package_run_dependencies/rm_hardware_driver
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/parent_prefix_path/rm_hardware_driver
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/ament_prefix_path.sh
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/path.sh
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/environment/path.dsv
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.bash
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.sh
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.zsh
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/local_setup.dsv
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/package.dsv
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/packages/rm_hardware_driver
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/ament_index/resource_index/rclcpp_components/rm_hardware_driver
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/cmake/rm_hardware_driverConfig.cmake
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/cmake/rm_hardware_driverConfig-version.cmake
+-- Symlinking: /home/lin/auto-aim/install/rm_hardware_driver/share/rm_hardware_driver/package.xml

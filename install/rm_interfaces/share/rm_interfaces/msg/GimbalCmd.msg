@@ -1,0 +1,1 @@
+/home/lin/auto-aim/src/rm_interfaces/msg/GimbalCmd.msg

@@ -1,0 +1,361 @@
+[0.016s] Invoking command in '/home/lin/auto-aim/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_interfaces
+[0.214s] -- The C compiler identification is GNU 11.4.0
+[0.342s] -- The CXX compiler identification is GNU 11.4.0
+[0.356s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.425s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.426s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.522s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.534s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.669s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.752s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.775s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.795s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.883s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.935s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.974s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.303s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.935s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.938s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.967s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.967s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.967s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.968s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.994s] -- Found PythonExtra: .so  
+[2.086s] -- Configuring done
+[2.158s] -- Generating done
+[2.174s] -- Build files have been written to: /home/lin/auto-aim/build/rm_interfaces
+[2.183s] Invoked command in '/home/lin/auto-aim/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_interfaces
+[2.185s] Invoking command in '/home/lin/auto-aim/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_interfaces -- -j8 -l8
+[2.241s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.251s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.258s] [  2%] Built target ament_cmake_python_symlink_rm_interfaces
+[2.474s] running egg_info
+[2.475s] creating rm_interfaces.egg-info
+[2.475s] writing rm_interfaces.egg-info/PKG-INFO
+[2.475s] writing dependency_links to rm_interfaces.egg-info/dependency_links.txt
+[2.475s] writing top-level names to rm_interfaces.egg-info/top_level.txt
+[2.476s] writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[2.479s] reading manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[2.480s] writing manifest file 'rm_interfaces.egg-info/SOURCES.txt'
+[2.509s] [  2%] Built target ament_cmake_python_build_rm_interfaces_egg
+[2.652s] [  3%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/armor__functions.c.o[0m
+[2.664s] [  5%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/target__functions.c.o[0m
+[2.667s] [  6%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/armors__functions.c.o[0m
+[2.667s] [  7%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/measurement__functions.c.o[0m
+[2.669s] [  8%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/serial_receive_data__functions.c.o[0m
+[2.671s] [ 10%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/msg/detail/gimbal_cmd__functions.c.o[0m
+[2.682s] [ 11%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_interfaces/srv/detail/set_mode__functions.c.o[0m
+[2.696s] [ 11%] Built target rm_interfaces__cpp
+[2.709s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.739s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.741s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.744s] [ 16%] [32m[1mLinking C shared library librm_interfaces__rosidl_generator_c.so[0m
+[2.799s] [ 16%] Built target rm_interfaces__rosidl_generator_c
+[2.814s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.815s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.819s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.018s] [ 21%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/armor__type_support.cpp.o[0m
+[3.036s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/target__type_support.cpp.o[0m
+[3.038s] [ 24%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/armors__type_support.cpp.o[0m
+[3.187s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/armor__type_support.cpp.o[0m
+[3.197s] [ 26%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[3.202s] [ 27%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[3.229s] [ 29%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/armors__type_support.cpp.o[0m
+[3.255s] [ 30%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/target__type_support.cpp.o[0m
+[3.289s] [ 31%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/measurement__type_support.cpp.o[0m
+[3.295s] [ 32%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[3.309s] [ 34%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/armor__type_support.c.o[0m
+[3.326s] [ 35%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o[0m
+[3.363s] [ 36%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/armors__type_support.c.o[0m
+[3.367s] [ 37%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/msg/serial_receive_data__type_support.cpp.o[0m
+[3.404s] [ 39%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_interfaces/srv/set_mode__type_support.cpp.o[0m
+[3.408s] [ 40%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/target__type_support.c.o[0m
+[3.452s] [ 41%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/measurement__type_support.c.o[0m
+[3.491s] [ 43%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal_cmd__type_support.c.o[0m
+[3.493s] [ 44%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_c.so[0m
+[3.545s] [ 45%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/measurement__type_support.cpp.o[0m
+[3.573s] [ 46%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/serial_receive_data__type_support.c.o[0m
+[3.596s] [ 48%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/gimbal_cmd__type_support.cpp.o[0m
+[3.605s] [ 48%] Built target rm_interfaces__rosidl_typesupport_c
+[3.617s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/msg/serial_receive_data__type_support.cpp.o[0m
+[3.617s] [ 50%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_interfaces/srv/detail/set_mode__type_support.c.o[0m
+[3.626s] [ 51%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[3.655s] [ 53%] [32m[1mLinking C shared library librm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.701s] [ 53%] Built target rm_interfaces__rosidl_typesupport_introspection_c
+[3.713s] [ 54%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_interfaces/srv/set_mode__type_support.cpp.o[0m
+[3.792s] [ 55%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[3.964s] [ 56%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[3.969s] [ 58%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[3.995s] [ 59%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/measurement__type_support.cpp.o[0m
+[4.040s] [ 60%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/gimbal_cmd__type_support.cpp.o[0m
+[4.066s] [ 62%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[4.070s] [ 63%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/measurement__type_support_c.cpp.o[0m
+[4.078s] [ 64%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_cpp.so[0m
+[4.112s] [ 65%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/gimbal_cmd__type_support_c.cpp.o[0m
+[4.138s] [ 65%] Built target rm_interfaces__rosidl_typesupport_cpp
+[4.148s] [ 67%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/target__type_support.cpp.o[0m
+[4.300s] [ 68%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/msg/detail/dds_fastrtps/serial_receive_data__type_support.cpp.o[0m
+[4.339s] [ 69%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/measurement__type_support.cpp.o[0m
+[4.382s] [ 70%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/msg/detail/serial_receive_data__type_support_c.cpp.o[0m
+[4.394s] [ 72%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/gimbal_cmd__type_support.cpp.o[0m
+[4.408s] [ 73%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_interfaces/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[4.550s] [ 74%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/msg/detail/serial_receive_data__type_support.cpp.o[0m
+[4.550s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_interfaces/srv/detail/set_mode__type_support_c.cpp.o[0m
+[4.556s] [ 77%] [32mBuilding CXX object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_interfaces/srv/detail/set_mode__type_support.cpp.o[0m
+[4.716s] [ 78%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.824s] [ 78%] Built target rm_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.825s] [ 79%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.853s] [ 81%] [32m[1mLinking CXX shared library librm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.910s] [ 81%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c
+[4.927s] [ 81%] Built target rm_interfaces__rosidl_typesupport_introspection_cpp
+[4.961s] [ 81%] Built target rm_interfaces
+[4.993s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.657s] [ 82%] Built target rm_interfaces__py
+[5.692s] [ 83%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_target_s.c.o[0m
+[5.693s] [ 84%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_armor_s.c.o[0m
+[5.693s] [ 86%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_measurement_s.c.o[0m
+[5.694s] [ 87%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_gimbal_cmd_s.c.o[0m
+[5.694s] [ 88%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_armors_s.c.o[0m
+[5.695s] [ 89%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/srv/_set_mode_s.c.o[0m
+[5.697s] [ 91%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rm_interfaces/msg/_serial_receive_data_s.c.o[0m
+[5.858s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/librm_interfaces__rosidl_generator_py.so[0m
+[5.921s] [ 92%] Built target rm_interfaces__rosidl_generator_py
+[5.957s] [ 93%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.959s] [ 94%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.962s] [ 96%] [32mBuilding C object CMakeFiles/rm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.041s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.047s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.063s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.076s] [100%] Built target rm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.078s] [100%] Built target rm_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.096s] [100%] Built target rm_interfaces__rosidl_typesupport_c__pyext
+[6.106s] Invoked command in '/home/lin/auto-aim/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_interfaces -- -j8 -l8
+[6.108s] Invoking command in '/home/lin/auto-aim/build/rm_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_interfaces
+[6.119s] -- Install configuration: ""
+[6.120s] -- Execute custom install script
+[6.120s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_interfaces
+[6.128s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor.h
+[6.137s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armors.h
+[6.145s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__functions.h
+[6.154s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__struct.h
+[6.167s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.h
+[6.177s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__functions.h
+[6.187s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__struct.h
+[6.197s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.h
+[6.207s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__functions.h
+[6.216s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.h
+[6.225s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.h
+[6.239s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__functions.h
+[6.249s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__struct.h
+[6.260s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__type_support.h
+[6.274s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__functions.h
+[6.289s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__struct.h
+[6.304s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__type_support.h
+[6.320s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__functions.h
+[6.331s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__struct.h
+[6.338s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.h
+[6.344s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.h
+[6.350s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/measurement.h
+[6.359s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.366s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/serial_receive_data.h
+[6.379s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target.h
+[6.390s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__functions.h
+[6.403s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__struct.h
+[6.412s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__type_support.h
+[6.427s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/set_mode.h
+[6.438s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/library_path.sh
+[6.453s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/library_path.dsv
+[6.465s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[6.472s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[6.482s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_c.h
+[6.490s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_fastrtps_c.h
+[6.502s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_fastrtps_c.h
+[6.514s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[6.521s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.528s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[6.539s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[6.547s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[6.555s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h
+[6.562s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_introspection_c.h
+[6.572s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_introspection_c.h
+[6.578s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[6.586s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.596s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[6.606s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armor.hpp
+[6.618s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/armors.hpp
+[6.625s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__builder.hpp
+[6.631s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__struct.hpp
+[6.638s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__traits.hpp
+[6.654s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__type_support.hpp
+[6.668s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__builder.hpp
+[6.677s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__struct.hpp
+[6.690s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__traits.hpp
+[6.703s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__type_support.hpp
+[6.712s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__builder.hpp
+[6.721s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__struct.hpp
+[6.730s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__traits.hpp
+[6.737s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__type_support.hpp
+[6.756s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__builder.hpp
+[6.765s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__struct.hpp
+[6.778s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__traits.hpp
+[6.793s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__type_support.hpp
+[6.803s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__builder.hpp
+[6.815s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__struct.hpp
+[6.829s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__traits.hpp
+[6.840s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__type_support.hpp
+[6.851s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__builder.hpp
+[6.863s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__struct.hpp
+[6.877s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__traits.hpp
+[6.889s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__type_support.hpp
+[6.901s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/gimbal_cmd.hpp
+[6.909s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/measurement.hpp
+[6.918s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.928s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/serial_receive_data.hpp
+[6.938s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/target.hpp
+[6.950s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__builder.hpp
+[6.962s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__struct.hpp
+[6.973s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__traits.hpp
+[6.984s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__type_support.hpp
+[6.990s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/set_mode.hpp
+[7.005s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[7.016s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[7.022s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[7.034s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_fastrtps_cpp.hpp
+[7.045s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_fastrtps_cpp.hpp
+[7.057s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[7.066s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.078s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[7.086s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[7.096s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[7.106s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_cpp.hpp
+[7.115s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/measurement__rosidl_typesupport_introspection_cpp.hpp
+[7.128s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/serial_receive_data__rosidl_typesupport_introspection_cpp.hpp
+[7.139s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[7.146s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/include/rm_interfaces/rm_interfaces/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[7.160s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.sh
+[7.171s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/pythonpath.dsv
+[7.179s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[7.188s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[7.201s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[7.208s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[7.222s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py
+[7.232s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_c.c
+[7.241s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.255s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/_rm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[7.263s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/librm_interfaces__rosidl_generator_py.so
+[7.274s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py
+[7.285s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor.py
+[7.293s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor_s.c
+[7.301s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors.py
+[7.311s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors_s.c
+[7.320s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py
+[7.328s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd_s.c
+[7.342s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_measurement.py
+[7.355s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_measurement_s.c
+[7.366s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_serial_receive_data.py
+[7.377s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_serial_receive_data_s.c
+[7.389s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target.py
+[7.397s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target_s.c
+[7.404s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.414s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.420s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.427s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/__init__.py
+[7.438s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/_set_mode.py
+[7.451s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/_set_mode_s.c
+[7.462s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.462s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.463s] -- Up-to-date symlink: /home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/rm_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.463s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Armor.idl
+[7.471s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Armors.idl
+[7.484s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Target.idl
+[7.497s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Measurement.idl
+[7.508s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.idl
+[7.518s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/SerialReceiveData.idl
+[7.527s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/srv/SetMode.idl
+[7.535s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Armor.msg
+[7.548s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Armors.msg
+[7.558s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Target.msg
+[7.567s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/Measurement.msg
+[7.577s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/GimbalCmd.msg
+[7.586s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/msg/SerialReceiveData.msg
+[7.597s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/srv/SetMode.srv
+[7.605s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/srv/SetMode_Request.msg
+[7.614s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/srv/SetMode_Response.msg
+[7.621s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_interfaces
+[7.634s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_interfaces
+[7.648s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.sh
+[7.661s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/ament_prefix_path.dsv
+[7.674s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/path.sh
+[7.688s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/environment/path.dsv
+[7.702s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/local_setup.bash
+[7.714s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/local_setup.sh
+[7.728s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/local_setup.zsh
+[7.743s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/local_setup.dsv
+[7.758s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.dsv
+[7.766s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/ament_index/resource_index/packages/rm_interfaces
+[7.776s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.785s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.796s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.810s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.820s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.831s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.842s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.849s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig.cmake
+[7.863s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfacesConfig-version.cmake
+[7.874s] -- Symlinking: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/package.xml
+[7.882s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so
+[7.883s] -- Set runtime path of "/home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_c.so" to ""
+[7.883s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.883s] -- Set runtime path of "/home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.883s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so
+[7.884s] -- Set runtime path of "/home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.884s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so
+[7.884s] -- Set runtime path of "/home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_c.so" to ""
+[7.885s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.885s] -- Set runtime path of "/home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.885s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.886s] -- Set runtime path of "/home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.886s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so
+[7.886s] -- Set runtime path of "/home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.927s] Listing '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/__init__.py'...
+[7.928s] Listing '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/__init__.py'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armor.py'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_armors.py'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_gimbal_cmd.py'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_measurement.py'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_serial_receive_data.py'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/msg/_target.py'...
+[7.928s] Listing '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/__init__.py'...
+[7.928s] Compiling '/home/lin/auto-aim/install/rm_interfaces/local/lib/python3.10/dist-packages/rm_interfaces/srv/_set_mode.py'...
+[7.931s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so
+[7.931s] -- Set runtime path of "/home/lin/auto-aim/install/rm_interfaces/lib/librm_interfaces__rosidl_generator_py.so" to ""
+[7.931s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_cppExport.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.932s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.933s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.933s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport.cmake
+[7.933s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/rm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.933s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport.cmake
+[7.933s] -- Installing: /home/lin/auto-aim/install/rm_interfaces/share/rm_interfaces/cmake/export_rm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.935s] Invoked command in '/home/lin/auto-aim/build/rm_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_interfaces

@@ -1,0 +1,6 @@
+Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_robot_description
+Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lin/auto-aim/src/rm_robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lin/auto-aim/install/rm_robot_description
+Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_robot_description -- -j8 -l8
+Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lin/auto-aim/build/rm_robot_description -- -j8 -l8
+Invoking command in '/home/lin/auto-aim/build/rm_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_robot_description
+Invoked command in '/home/lin/auto-aim/build/rm_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lin/auto-aim/build/rm_robot_description

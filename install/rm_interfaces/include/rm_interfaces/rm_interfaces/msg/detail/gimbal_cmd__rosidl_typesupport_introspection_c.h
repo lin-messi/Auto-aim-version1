@@ -1,0 +1,1 @@
+/home/lin/auto-aim/build/rm_interfaces/rosidl_typesupport_introspection_c/rm_interfaces/msg/detail/gimbal_cmd__rosidl_typesupport_introspection_c.h

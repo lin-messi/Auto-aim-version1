@@ -1,0 +1,7 @@
+/home/lin/auto-aim/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Armor.idl
+/home/lin/auto-aim/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Armors.idl
+/home/lin/auto-aim/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Target.idl
+/home/lin/auto-aim/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/Measurement.idl
+/home/lin/auto-aim/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/GimbalCmd.idl
+/home/lin/auto-aim/build/rm_interfaces/rosidl_adapter/rm_interfaces:msg/SerialReceiveData.idl
+/home/lin/auto-aim/build/rm_interfaces/rosidl_adapter/rm_interfaces:srv/SetMode.idl

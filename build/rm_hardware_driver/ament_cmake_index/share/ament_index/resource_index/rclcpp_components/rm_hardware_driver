@@ -1,0 +1,2 @@
+rm_auto_aim::SerialDriverNode;lib/libserial_driver_node.so
+rm_auto_aim::CameraDriverNode;lib/libcamera_driver_node.so

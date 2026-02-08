@@ -1,0 +1,10 @@
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/uninstall.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/rm_auto_aim_uninstall.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/armor_detector.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/test.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/edit_cache.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/rebuild_cache.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/list_install_components.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/install.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/install/local.dir
+/home/lin/auto-aim/build/rm_auto_aim/CMakeFiles/install/strip.dir
