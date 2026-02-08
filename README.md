@@ -1,4 +1,4 @@
-# RM Auto Aim README
+# RM Auto Aim README（未修改版本）
 
 基于 ROS2 开发的 RoboMaster 自动瞄准（Auto Aim）系统，集成装甲板检测、目标跟踪、弹道补偿、反陀螺策略及串口通信等核心功能，模块化设计便于扩展与调试，项目结构如下：
 
